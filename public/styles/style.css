@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #333333;
+  font-family: arial;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 0 16px;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+footer {
+  color: #888888;
+  border-top: 1px solid #c9c9c9;
+  margin-top: 16px;
+  padding: 16px 0;
+}
+
+header {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #c9c9c9;
+}
+
+h1 {
+  font-size: 64px;
+  margin-bottom: 16px;
+}
+
+header a {
+  color: #888888;
+  margin-right: 16px;
+  text-decoration: none;
+}
+img {
+  width: 350px;
+  height: auto;
+  padding: 0px 0;
+  border: 2px solid #007bff;
+  border-radius: 50%;
+}
+h3 {
+  margin-left: 90px;
+  margin-top: 16px;
+}
+input {
+  width: 270px;
+  height: 35px;
+  margin: 16px 8px 16 0;
+  border: 1px solid black;
+  font-size: 16px;
+  padding-left: 2px;
+  border-radius: 4px;
+  /* outline: #888888; */
+}
+
+input:focus {
+  outline: none;
+  baseline: none;
+}
+button {
+  height: 35px;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+  margin-left: 4px;
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 6px 12px;
+}
+button:hover {
+  cursor: pointer;
+  background-color: #0171e9;
+}
+button:active {
+  box-shadow: 0px 0px 0px 4px #79baff;
+}
+.main-content {
+  flex-grow: 1;
+}
